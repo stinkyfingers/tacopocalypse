@@ -1,0 +1,32 @@
+{{define "main"}}
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<title>Tacopocalypse</title>
+	</head>
+	<body>
+		<h1 class="center logo">Tacopocalypse</h1>
+		<div class="center">
+			<a href="/" class="button">Home</a>
+			<a href="signup" class="button">Sign Up</a>
+		</div>
+		{{template "index" .}}
+		<div class="center" id="tacox">
+			<img src="/css/mexico_taco.gif" id="taco">
+		</div>
+
+	</body>
+	<script type="text/javascript">
+
+		var go = function(){
+			window.setInterval(function(){
+				f = document.getElementById("taco");
+				f.style.height='180px';
+				f.style.display = (f.style.display == 'none' ? '' : 'none');
+			},500)
+		}
+		go();
+
+	</script>
+</html>
+{{end}}

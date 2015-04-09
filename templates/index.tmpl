@@ -1,0 +1,27 @@
+{{define "index"}}
+
+<div class="index">
+	<h3 class="tagline center">The ultimate in Mexican-food based gluttony: 5 Mexican Restaurants in 5 days.</h3>
+
+	<div class="schedule center">
+		<p>Monday 4/6 - Azul Tequila</p>
+		<p>Tuesday 4/7 - Taqueria La Poblanita</p>
+		<p>Wednesday 4/8 - La Misma Luna Mexican Store</p>
+		<p>Thursday 4/9 - Tacos Juanita</p>
+		<p>Friday 4/10 - El Patio</p>
+		<small>**Schedule subject to change at the whim of whiny crybabies.**</small>
+	</div>
+	
+	<div class="centerTable">
+		<table class="people center">
+			<tr><th>Name</th><th>Spirit Animal</th></tr>
+			{{range .people}}
+				<tr>
+					<td>{{.Name}}</td>
+					<td>{{.Animal}}</td>
+				</tr>
+			{{end}}
+		</table>
+	</div>
+</div>
+{{end}}

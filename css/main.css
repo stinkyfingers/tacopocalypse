@@ -1,0 +1,78 @@
+body{
+	color:#4ee;
+	background-color: #ecceec;
+	margin:0;
+}
+
+.center{
+	text-align: center;
+}
+
+.logo{
+	font-family: Courier;
+	color:red;
+	font-size: 6em;
+}
+
+.button{
+	text-decoration: none;
+	color:#aacc44;
+	background-color: #34e;
+	font-family: Arial;
+	padding:1em;
+	margin:2em;
+	border-radius: .3em;
+	border: solid white 2px;
+}
+
+.index{
+	background-color: #120;
+	padding:2em;
+}
+
+.tagline{
+	font-family: Copperplate;
+	font-size: 2em;
+}
+
+.people, .people td{
+	border: dotted #ff7 3px;
+}
+.people th{
+	border: solid #eec 4px;
+	padding:1em;
+}
+
+.people td{
+	padding:1em;
+}
+
+.people{
+	min-width:33%;
+}
+.centerTable{
+	margin-left: 38%;
+	margin-right: auto;
+}
+.schedule{
+	font-size: 1.4em;
+	color:green;
+	background-color: #ddffdd;
+	padding: .4em 0 2em 0;
+	margin-bottom:1em;
+}
+.dare{
+	font-family: helvetica;
+	color:#ae441f;
+}
+#taco{
+	max-height: 180px;
+}
+#tacox{
+	min-height:180px;
+}
+
+form label{
+	display:block;
+	margin:2em;
+}
